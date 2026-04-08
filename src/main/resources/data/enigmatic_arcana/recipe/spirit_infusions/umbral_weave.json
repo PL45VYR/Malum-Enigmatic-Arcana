@@ -1,39 +1,43 @@
 {
   "type": "malum:spirit_infusion",
-  "extraInputs": [
+  "extraInput": [
     {
       "count": 4,
-      "item": "malum:refined_soulstone"
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "count": 4,
+      "item": "malum:hallowed_gold_ingot"
     },
     {
       "count": 2,
-      "item": "irons_spellbooks:arcane_ingot"
+      "item": "irons_spellbooks:magic_cloth"
     },
     {
       "count": 2,
-      "item": "irons_spellbooks:mithril_scrap"
+      "item": "malum:astral_weave"
     }
   ],
   "input": {
     "count": 1,
-    "item": "malum:soul_stained_steel_ingot"
+    "item": "irons_spellbooks:mithril_weave"
   },
   "result": {
     "count": 1,
-    "id": "enigmatic_arcana:agroconic_alloy"
+    "id": "enigmatic_arcana:umbral_weave"
   },
   "spirits": [
     {
       "type": "malum:eldritch",
-      "count": 24
+      "count": 12
     },
     {
       "type": "malum:arcane",
-      "count": 32
+      "count": 24
     },
     {
       "type": "malum:wicked",
-      "count": 32
+      "count": 24
     }
   ]
 }

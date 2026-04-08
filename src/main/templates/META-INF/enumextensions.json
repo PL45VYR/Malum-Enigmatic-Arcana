@@ -2,11 +2,20 @@
   "entries": [
     {
       "enum": "net/minecraft/world/item/Rarity",
-      "name": "ENIGMATIC_ARCANA_RARITY_FIRE",
+      "name": "ENIGMATIC_ARCANA_RARITY_AGROCONIC",
       "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
       "parameters": {
         "class": "net/hazen/enigmatic_arcana/Utils/EARarities",
         "field": "AGROCONIC_RARITY"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/Rarity",
+      "name": "ENIGMATIC_ARCANA_RARITY_UMBRAL",
+      "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+      "parameters": {
+        "class": "net/hazen/enigmatic_arcana/Utils/EARarities",
+        "field": "UMBRAL_RARITY"
       }
     }
   ]

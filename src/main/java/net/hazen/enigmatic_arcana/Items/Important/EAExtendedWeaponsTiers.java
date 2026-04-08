@@ -1,6 +1,8 @@
 package net.hazen.enigmatic_arcana.Items.Important;
 
+import com.sammy.malum.registry.common.MalumAttributes;
 import com.sammy.malum.registry.common.item.MalumItems;
+import dev.shadowsoffire.apothic_attributes.api.ALObjects;
 import io.redspace.ironsspellbooks.api.registry.AttributeRegistry;
 import io.redspace.ironsspellbooks.item.weapons.AttributeContainer;
 import io.redspace.ironsspellbooks.item.weapons.IronsWeaponTier;
@@ -23,9 +25,11 @@ public class EAExtendedWeaponsTiers implements Tier, IronsWeaponTier {
     public static EAExtendedWeaponsTiers NIHILITY = new EAExtendedWeaponsTiers(
             8064,
             2F,
+            1.3F,
             10,
             BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
             () -> Ingredient.of(MalumItems.SOUL_STAINED_STEEL_PLATING.get()),
+            new AttributeContainer(ALObjects.Attributes.CRIT_CHANCE, 0.15, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),
             new AttributeContainer(AttributeRegistry.SPELL_POWER, 0.15, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),
             new AttributeContainer(AttributeRegistry.SPELL_RESIST, 0.1, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),
             new AttributeContainer(Attributes.ENTITY_INTERACTION_RANGE, 2, AttributeModifier.Operation.ADD_VALUE)
@@ -39,9 +43,10 @@ public class EAExtendedWeaponsTiers implements Tier, IronsWeaponTier {
     Supplier<Ingredient> repairIngredient;
     AttributeContainer[] attributes;
 
-    private EAExtendedWeaponsTiers(int uses, float damage, int enchantmentValue, TagKey<Block> incorrectBlocksForDrops, Supplier<Ingredient> repairIngredient, AttributeContainer... attributes) {
+    private EAExtendedWeaponsTiers(int uses, float damage, float speed, int enchantmentValue, TagKey<Block> incorrectBlocksForDrops, Supplier<Ingredient> repairIngredient, AttributeContainer... attributes) {
         this.uses = uses;
         this.damage = damage;
+        this.speed = speed;
         this.enchantmentValue = enchantmentValue;
         this.incorrectBlocksForDrops = incorrectBlocksForDrops;
         this.repairIngredient = repairIngredient;

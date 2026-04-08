@@ -7,6 +7,7 @@ import net.hazen.enigmatic_arcana.Items.Equipment.Curios.CustomCurios.AgroconicB
 import net.hazen.enigmatic_arcana.Items.Equipment.Curios.CustomCurios.AgroconicWings.AgroconicWings;
 import net.hazen.enigmatic_arcana.Items.Equipment.Curios.Spellbooks.Antonomos.Antonomos;
 import net.hazen.enigmatic_arcana.Items.Equipment.Weapons.Nihility;
+import net.hazen.enigmatic_arcana.Utils.EARarities;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -26,7 +27,16 @@ public class EAItemRegistry {
 
     public static final DeferredItem<Item> AGROCONIC_ALLOY = ITEMS.register("agroconic_alloy",
             () -> new Item(new Item.Properties()
+                    .rarity(EARarities.AGROCONIC_RARITY.getValue())
+
             ));
+
+    public static final DeferredItem<Item> UMBRAL_WEAVE = ITEMS.register("umbral_weave",
+            () -> new Item(new Item.Properties()
+                    .rarity(EARarities.UMBRAL_RARITY.getValue())
+
+            ));
+
 
     /*
     *** Curios
@@ -43,8 +53,8 @@ public class EAItemRegistry {
     *** Spellbooks
      */
 
-    // Agroconic Bulwark
-    public static final DeferredItem<Antonomos> ANTONOMOS = ITEMS.register("antonomos", Antonomos::new);
+    // Antonomos
+    public static final DeferredItem <Antonomos> ANTONOMOS = ITEMS.register("antonomos", Antonomos::new);
 
 
 
@@ -65,23 +75,27 @@ public class EAItemRegistry {
 
     public static final DeferredHolder<Item, Item> APOTHIC_CRUSADER_HELMET = ITEMS.register("apothic_crusader_helmet",
             () -> new ApothicCrusaderArmorItem(ArmorItem.Type.HELMET, ItemPropertiesHelper
-            .equipment(1)
-            .fireResistant()
+                    .equipment(1)
+                    .rarity(EARarities.AGROCONIC_RARITY.getValue())
+                    .fireResistant()
             ));
     public static final DeferredHolder<Item, Item> APOTHIC_CRUSADER_CHESTPLATE = ITEMS.register("apothic_crusader_chestplate",
             () -> new ApothicCrusaderArmorItem(ArmorItem.Type.CHESTPLATE, ItemPropertiesHelper
-            .equipment(1)
-            .fireResistant()
+                    .equipment(1)
+                    .rarity(EARarities.AGROCONIC_RARITY.getValue())
+                    .fireResistant()
             ));
     public static final DeferredHolder<Item, Item> APOTHIC_CRUSADER_LEGGINGS = ITEMS.register("apothic_crusader_leggings",
             () -> new ApothicCrusaderArmorItem(ArmorItem.Type.LEGGINGS, ItemPropertiesHelper
-            .equipment(1)
-            .fireResistant()
+                    .equipment(1)
+                    .rarity(EARarities.AGROCONIC_RARITY.getValue())
+                    .fireResistant()
             ));
     public static final DeferredHolder<Item, Item> APOTHIC_CRUSADER_BOOTS = ITEMS.register("apothic_crusader_boots",
             () -> new ApothicCrusaderArmorItem(ArmorItem.Type.BOOTS, ItemPropertiesHelper
-            .equipment(1)
-            .fireResistant()
+                    .equipment(1)
+                    .rarity(EARarities.AGROCONIC_RARITY.getValue())
+                    .fireResistant()
             ));
 
 

@@ -1,0 +1,52 @@
+{
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInput": [
+    {
+      "count": 4,
+      "item": "enigmatic_arcana:umbral_weave"
+    },
+    {
+      "count": 4,
+      "item": "enigmatic_arcana:agroconic_alloy"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:candle"
+    },
+    {
+      "count": 2,
+      "item": "malum:paracausal_flame"
+    },
+    {
+      "count": 4,
+      "item": "irons_spellbooks:bloody_vellum"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:diamond_spell_book"
+  },
+  "result": {
+    "count": 1,
+    "id": "enigmatic_arcana:antonomos"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 64
+    },
+    {
+      "type": "malum:arcane",
+      "count": 64
+    },
+    {
+      "type": "malum:sacred",
+      "count": 64
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ]
+}

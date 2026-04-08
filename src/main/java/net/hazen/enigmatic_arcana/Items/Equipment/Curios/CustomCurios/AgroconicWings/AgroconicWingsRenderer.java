@@ -42,7 +42,7 @@ public class AgroconicWingsRenderer implements ICurioRenderer {
 
         curioRenderer.prepForRender(entity, stack, EquipmentSlot.BODY, (HumanoidModel<?>) renderLayerParent.getModel());
 
-        matrixStack.translate(0.0D, -2D, 0.0D); // x = sideways, y = up/down, z = forward/back
+        matrixStack.translate(0.0D, -1.7D, 0.03D); // x = sideways, y = up/down, z = forward/back
 
         AzBakedModel model = curioRenderer.provider().provideBakedModel(entity, stack);
         ResourceLocation textureLocation = AgroconicWingsItemRenderer.TEX;

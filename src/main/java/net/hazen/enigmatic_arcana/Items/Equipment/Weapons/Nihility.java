@@ -27,8 +27,8 @@ public class Nihility extends ArcaneScytheItem {
     public Nihility() {
         super(
                 EAExtendedWeaponsTiers.NIHILITY,
-                1.3f,
-                EAExtendedWeaponsTiers.NIHILITY.getSpeed(),
+                2f,
+                0.6f,
                 6.0f,
                 new LodestoneItemProperties()
                         .fireResistant()

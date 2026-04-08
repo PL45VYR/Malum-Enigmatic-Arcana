@@ -1,5 +1,12 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hazennstuff"
+    }
+  ],
   "replace": false,
   "values": [
+    "enigmatic_arcana:agroconic_wings"
   ]
 }

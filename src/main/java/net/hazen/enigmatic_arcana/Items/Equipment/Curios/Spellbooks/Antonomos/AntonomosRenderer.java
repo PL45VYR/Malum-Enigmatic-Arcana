@@ -42,7 +42,7 @@ public class AntonomosRenderer implements ICurioRenderer {
 
         curioRenderer.prepForRender(entity, stack, EquipmentSlot.BODY, (HumanoidModel<?>) renderLayerParent.getModel());
 
-        matrixStack.translate(-0.5D, -1.75D, -0.54D); // x = sideways, y = up/down, z = forward/back
+        matrixStack.translate(-0.7D, -1.4D, -0.74D); // x = sideways, y = up/down, z = forward/back
 
         AzBakedModel model = curioRenderer.provider().provideBakedModel(entity, stack);
         ResourceLocation textureLocation = AntonomosItemRenderer.TEX;

@@ -150,11 +150,11 @@ dependencies {
     compileOnly "curse.maven:apotheosis-${apotheosis_version}"
 
     //Ace Utils
-    implementation "curse.maven:ace_utils-1299492:7119308"
+    //implementation "curse.maven:ace_utils-1299492:7119308"
 
     // Photon
-    implementation "curse.maven:photon-871522:6911487"
-    implementation "curse.maven:ld_lib-626676:6911394"
+    //implementation "curse.maven:photon-871522:6911487"
+    //implementation "curse.maven:ld_lib-626676:6911394"
 
     //AzureLib
     implementation "mod.azure.azurelib:azurelib-neo-${minecraft_version}:${azurelib_version}"
@@ -172,8 +172,8 @@ dependencies {
     localRuntime "curse.maven:cloth-config-348521:5623420"
 
     //Malum
-    implementation "curse.maven:malum-484064:6655805"
-    implementation "curse.maven:lodestone-616457:6630047"
+    implementation "curse.maven:malum-484064:7307339"
+    implementation "curse.maven:lodestone-616457:7264731"
 
     // Iron's Gems 'n Jewelry
     //localRuntime "curse.maven:irons_gems_n_jewelry-1101111:7084345"

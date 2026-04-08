@@ -1,7 +1,7 @@
 {
   "type": "malum:spirit_infusion",
   "carryOverComponentData": true,
-  "extraIngredients": [
+  "extraInput": [
     {
       "count": 4,
       "item": "enigmatic_arcana:agroconic_alloy"
@@ -19,26 +19,26 @@
       "item": "irons_spellbooks:decrepit_scythe"
     }
   ],
-  "ingredient": {
+  "input": {
     "count": 1,
     "item": "malum:soul_stained_steel_scythe"
   },
-  "output": {
+  "result": {
     "count": 1,
     "id": "enigmatic_arcana:nihility"
   },
   "spirits": [
     {
-      "type": "wicked",
+      "type": "malum:wicked",
+      "count": 64
+    },
+    {
+      "type": "malum:arcane",
       "count": 32
     },
     {
-      "type": "arcane",
-      "count": 16
-    },
-    {
-      "type": "eldritch",
-      "count": 16
+      "type": "malum:eldritch",
+      "count": 32
     }
   ]
 }

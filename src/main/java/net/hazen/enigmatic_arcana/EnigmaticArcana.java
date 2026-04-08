@@ -4,8 +4,6 @@ import io.redspace.ironsspellbooks.item.SpellBook;
 import io.redspace.ironsspellbooks.render.SpellBookCurioRenderer;
 import mod.azure.azurelib.common.animation.cache.AzIdentityRegistry;
 import mod.azure.azurelib.common.render.armor.AzArmorRendererRegistry;
-import net.acetheeldritchking.aces_spell_utils.entity.render.items.SheathCurioRenderer;
-import net.acetheeldritchking.aces_spell_utils.items.curios.SheathCurioItem;
 import net.hazen.enigmatic_arcana.Items.Equipment.Armor.AgroconicSets.ApothicCrusader.ApothicCrusaderArmorRenderer;
 import net.hazen.enigmatic_arcana.Items.Equipment.Curios.CustomCurios.AgroconicBulwark.AgroconicBulwarkItemRenderer;
 import net.hazen.enigmatic_arcana.Items.Equipment.Curios.CustomCurios.AgroconicBulwark.AgroconicBulwarkRenderer;
@@ -47,8 +45,6 @@ public class EnigmaticArcana {
         EAArmorMaterials.register(modEventBus);
         EACreativeModeTabs.register(modEventBus);
 
-        EASchoolRegistry.register(modEventBus);
-
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
         modContainer.registerConfig(ModConfig.Type.COMMON, EAConfig.SPEC);
@@ -74,8 +70,20 @@ public class EnigmaticArcana {
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             event.enqueueWork(() -> {
-                EAItemRegistry.getEAItems().stream().filter(item -> item.get() instanceof SpellBook).forEach((item) -> CuriosRendererRegistry.register(item.get(), SpellBookCurioRenderer::new));
-                EAItemRegistry.getEAItems().stream().filter(item -> item.get() instanceof SheathCurioItem).forEach((item) -> CuriosRendererRegistry.register(item.get(), SheathCurioRenderer::new));
+                AzArmorRendererRegistry.register(AntonomosItemRenderer::new, EAItemRegistry.ANTONOMOS.get());
+                CuriosRendererRegistry.register(EAItemRegistry.ANTONOMOS.get(), AntonomosRenderer::new);
+
+                EAItemRegistry.getEAItems().stream()
+                        .map(java.util.function.Supplier::get)
+                        .filter(item -> item instanceof SpellBook && item != EAItemRegistry.ANTONOMOS.get())
+                        .forEach(item -> CuriosRendererRegistry.register(item, SpellBookCurioRenderer::new));
+
+                /*
+                EAItemRegistry.getEAItems().stream()
+                        .map(java.util.function.Supplier::get)
+                        .filter(item -> item instanceof SheathCurioItem)
+                        .forEach(item -> CuriosRendererRegistry.register(item, SheathCurioRenderer::new));
+                 */
             });
 
             /*
@@ -108,12 +116,6 @@ public class EnigmaticArcana {
             /*
              *** Spellbooks
              */
-
-            // Antonomos
-            AzArmorRendererRegistry.register(AntonomosItemRenderer::new, EAItemRegistry.ANTONOMOS.get());
-            CuriosRendererRegistry.register(
-                    EAItemRegistry.ANTONOMOS.get(), AntonomosRenderer::new
-            );
 
             /*
              *** Animation Registry

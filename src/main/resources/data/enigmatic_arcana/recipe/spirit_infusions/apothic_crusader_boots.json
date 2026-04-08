@@ -1,0 +1,48 @@
+{
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInput": [
+    {
+      "count": 6,
+      "item": "enigmatic_arcana:agroconic_alloy"
+    },
+    {
+      "count": 4,
+      "item": "enigmatic_arcana:umbral_weave"
+    },
+    {
+      "count": 8,
+      "item": "malum:soul_stained_steel_plating"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_boots"
+  },
+  "output": {
+    "count": 1,
+    "id": "enigmatic_arcana:apothic_crusader_boots"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 48
+    },
+    {
+      "type": "malum:arcane",
+      "count": 64
+    },
+    {
+      "type": "malum:sacred",
+      "count": 48
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 24
+    }
+  ]
+}

@@ -16,9 +16,9 @@ public class ApothicCrusaderArmorItem extends EAImbuableArmorItem implements IDi
                 warlock(
                 250,
                 0.15f,
-                0.15f,
+                0.5f,
                 4,
-                0.05F
+                0.2F
         ));
         this.dispatcher = new EADispatcher();
     }

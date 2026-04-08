@@ -12,6 +12,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -34,9 +35,10 @@ public class AgroconicBulwark extends CurioBaseItem {
     @Override
     public Multimap<Holder<Attribute>, AttributeModifier> getAttributeModifiers(SlotContext slotContext, ResourceLocation id, ItemStack stack) {
         Multimap<Holder<Attribute>, AttributeModifier> attr = LinkedHashMultimap.create();
-        attr.put(MalumAttributes.SOUL_WARD_CAPACITY, new AttributeModifier(id, 4f, AttributeModifier.Operation.ADD_VALUE));
-        attr.put(MalumAttributes.SOUL_WARD_RECOVERY_RATE, new AttributeModifier(id, 0.25f, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
-        attr.put(MalumAttributes.SOUL_WARD_INTEGRITY, new AttributeModifier(id, 0.25f, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+        attr.put(Attributes.ARMOR, new AttributeModifier(id, 4f, AttributeModifier.Operation.ADD_VALUE));
+        attr.put(MalumAttributes.SOUL_WARD_CAPACITY, new AttributeModifier(id, 8f, AttributeModifier.Operation.ADD_VALUE));
+        attr.put(MalumAttributes.SOUL_WARD_RECOVERY_RATE, new AttributeModifier(id, 0.5f, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+        attr.put(MalumAttributes.SOUL_WARD_INTEGRITY, new AttributeModifier(id, 0.3f, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
         return attr;
     }
 

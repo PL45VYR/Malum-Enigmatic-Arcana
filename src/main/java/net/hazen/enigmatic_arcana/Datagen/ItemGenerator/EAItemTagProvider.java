@@ -146,7 +146,7 @@ public class EAItemTagProvider extends ItemTagsProvider {
                 .add(EAItemRegistry.NIHILITY.get())
         ;
 
-        tag(MalumTags.ItemTags.MAGIC_CAPABLE_WEAPONS)
+        tag(MalumTags.ItemTags.MAGIC_CAPABLE_WEAPON)
                 .add(EAItemRegistry.NIHILITY.get())
         ;
     }

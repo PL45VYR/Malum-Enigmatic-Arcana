@@ -26,6 +26,7 @@ public class EACreativeModeTabs {
                          */
 
                         output.accept(EAItemRegistry.AGROCONIC_ALLOY.get());
+                        output.accept(EAItemRegistry.UMBRAL_WEAVE.get());
 
                         output.accept(EAItemRegistry.NIHILITY.get());
 
