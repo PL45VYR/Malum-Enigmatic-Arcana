@@ -1,40 +1,44 @@
 {
   "type": "malum:spirit_infusion",
   "carryOverComponentData": true,
-  "extraInput": [
-    {
-      "count": 6,
-      "item": "enigmatic_arcana:agroconic_alloy"
-    },
+  "extraInputs": [
     {
       "count": 4,
       "item": "enigmatic_arcana:umbral_weave"
     },
     {
+      "count": 4,
+      "item": "enigmatic_arcana:agroconic_alloy"
+    },
+    {
       "count": 8,
       "item": "malum:soul_stained_steel_plating"
+    },
+    {
+      "count": 4,
+      "item": "irons_spellbooks:bloody_vellum"
     }
   ],
   "input": {
     "count": 1,
-    "item": "malum:soul_stained_steel_boots"
+    "item": "minecraft:shield"
   },
   "result": {
     "count": 1,
-    "id": "enigmatic_arcana:apothic_crusader_boots"
+    "id": "enigmatic_arcana:agroconic_bulwark"
   },
   "spirits": [
     {
       "type": "malum:earthen",
-      "count": 16
+      "count": 32
     },
     {
       "type": "malum:wicked",
       "count": 48
     },
     {
-      "type": "malum:arcane",
-      "count": 64
+      "type": "malum:aerial",
+      "count": 32
     },
     {
       "type": "malum:sacred",
@@ -42,7 +46,7 @@
     },
     {
       "type": "malum:eldritch",
-      "count": 24
+      "count": 32
     }
   ]
 }
