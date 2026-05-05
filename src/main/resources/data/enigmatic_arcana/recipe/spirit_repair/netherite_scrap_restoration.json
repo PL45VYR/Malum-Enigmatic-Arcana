@@ -1,0 +1,20 @@
+{
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.25,
+  "repairMaterial": {
+    "count": 1,
+    "item": "minecraft:netherite_scrap"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 16
+    }
+  ],
+  "validItems": [
+    "irons_spellbooks:legionnaire_flamberge",
+    "irons_spellbooks:hellrazor",
+    "irons_spellbooks:keeper_flamberge",
+    "irons_spellbooks:decrepit_scythe"
+  ]
+}

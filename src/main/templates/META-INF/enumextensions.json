@@ -17,6 +17,15 @@
         "class": "net/hazen/enigmatic_arcana/Utils/EARarities",
         "field": "UMBRAL_RARITY"
       }
+    },
+    {
+      "enum": "net/minecraft/world/item/Rarity",
+      "name": "ENIGMATIC_ARCANA_RARITY_SOUL_STAINED",
+      "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+      "parameters": {
+        "class": "net/hazen/enigmatic_arcana/Utils/EARarities",
+        "field": "SOUL_STAINED_RARITY"
+      }
     }
   ]
 }

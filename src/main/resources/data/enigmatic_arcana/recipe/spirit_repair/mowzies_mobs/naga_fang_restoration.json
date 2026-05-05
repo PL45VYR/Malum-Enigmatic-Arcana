@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mowziesmobs"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 3,
+    "item": "mowziesmobs:naga_fang"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "mowziesmobs:naga_fang_dagger"
+  ]
+}

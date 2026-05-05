@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "codex_of_champions"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "repairMaterial": {
+    "count": 1,
+    "item": "codex_of_champions:electrified_bronze"
+  },
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "codex_of_champions:thunderbringer"
+  ]
+}

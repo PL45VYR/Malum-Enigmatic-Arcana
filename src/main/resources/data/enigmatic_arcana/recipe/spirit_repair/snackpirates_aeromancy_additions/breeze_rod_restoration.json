@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aero_additions"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 8,
+    "item": "minecraft:breeze_rod"
+  },
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "aero_additions:wind_sword"
+  ]
+}

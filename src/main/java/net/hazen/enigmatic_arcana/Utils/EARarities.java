@@ -19,4 +19,10 @@ public class EARarities {
             "enigmatic_arcana:umbral",
             (UnaryOperator<Style>) ((style) -> style.withColor(0xe77e0b))
     );
+
+    public static final EnumProxy<Rarity> SOUL_STAINED_RARITY = new EnumProxy<>(Rarity.class,
+            -1,
+            "enigmatic_arcana:soul_stained",
+            (UnaryOperator<Style>) ((style) -> style.withColor(0xee8fff))
+    );
 }

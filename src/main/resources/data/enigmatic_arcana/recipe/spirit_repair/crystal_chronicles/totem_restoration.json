@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystal_chronicles"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "count": 1,
+    "item": "minecraft:totem_of_undying"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 12
+    }
+  ],
+  "validItems": [
+    "crystal_chronicles:evocation_twinblade",
+    "crystal_chronicles:evoker_helmet",
+    "crystal_chronicles:evoker_chestplate",
+    "crystal_chronicles:evoker_leggings",
+    "crystal_chronicles:evoker_boots"
+  ]
+}

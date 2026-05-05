@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "codex_of_champions"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "repairMaterial": {
+    "count": 1,
+    "item": "codex_of_champions:eternal_ice"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "codex_of_champions:frostbite_helmet",
+    "codex_of_champions:frostbite_chestplate",
+    "codex_of_champions:frostbite_leggings",
+    "codex_of_champions:frostbite_boots"
+  ]
+}

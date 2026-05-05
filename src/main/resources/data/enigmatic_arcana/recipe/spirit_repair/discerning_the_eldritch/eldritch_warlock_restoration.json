@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "discerning_the_eldritch"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "repairMaterial": {
+    "count": 2,
+    "item": "discerning_the_eldritch:corrupted_cloth"
+  },
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 8
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "discerning_the_eldritch:eldritch_warlock_hood",
+    "discerning_the_eldritch:eldritch_warlock_mask",
+    "discerning_the_eldritch:eldritch_warlock_helmet",
+    "discerning_the_eldritch:eldritch_warlock_robes",
+    "discerning_the_eldritch:eldritch_warlock_leggings",
+    "discerning_the_eldritch:eldritch_warlock_greaves"
+  ]
+}

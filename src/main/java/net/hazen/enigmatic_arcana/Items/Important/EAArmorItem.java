@@ -54,13 +54,7 @@ public class EAArmorItem extends ArmorItem {
         });
     }
 
-    public static AttributeContainer[] warlock(
-            int mana,
-            float spellPower,
-            float resistSpellPower,
-            float soulWardCapacity,
-            float soulWardRecovery
-    )
+    public static AttributeContainer[] pureTierMalum(int mana, float spellPower, float resistSpellPower, float soulWardCapacity, float soulWardRecovery)
     {
         return new AttributeContainer[]{
                 new AttributeContainer(AttributeRegistry.MAX_MANA, mana, AttributeModifier.Operation.ADD_VALUE),
@@ -71,7 +65,7 @@ public class EAArmorItem extends ArmorItem {
         };
     }
 
-    public static AttributeContainer[] paragon(
+    public static AttributeContainer[] paragonTierMalum(
             int mana,
             float spellPower,
             float resistSpellPower,

@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monsterspellbooks"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 2,
+    "item": "monsterspellbooks:orichalcum_ingot"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 6
+    }
+  ],
+  "validItems": [
+    "monsterspellbooks:orichalcum_greatsword",
+    "monsterspellbooks:orichalcum_warhammer",
+    "monsterspellbooks:orichalcum_axe",
+    "monsterspellbooks:orichalcum_greataxe",
+    "monsterspellbooks:orichalcum_dagger"
+  ]
+}

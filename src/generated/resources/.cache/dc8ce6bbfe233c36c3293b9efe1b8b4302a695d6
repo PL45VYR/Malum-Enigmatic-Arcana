@@ -1,13 +1,15 @@
-// 1.21.1	2025-10-22T11:59:29.6371707	Tags for minecraft:item mod id enigmatic_arcana
+// 1.21.1	2026-05-04T08:39:45.862332	Tags for minecraft:item mod id enigmatic_arcana
 03a156854fd43bb9f546170eb3dcd0eb5e0b6dc7 data/c/tags/item/armors.json
-6298ca38dcbaa6d90af23426e38d810788f77420 data/c/tags/item/enchantables.json
+430f5e99bd2bb952dcb0ab7f22447c00a3f6f128 data/c/tags/item/enchantables.json
 c78867faf70fd8cd33cd96f05340a7b7f4303858 data/c/tags/item/ingots.json
+fb9bd03890a4bded91da809bd25300ebe0faeda1 data/c/tags/item/tools/bow.json
 6298ca38dcbaa6d90af23426e38d810788f77420 data/irons_spellbooks/tags/item/imbue_whitelist.json
 6298ca38dcbaa6d90af23426e38d810788f77420 data/irons_spellbooks/tags/item/upgrade_whitelist.json
 2bf685d3999e884884ee373bdef093d4b346978e data/malum/tags/item/magic_capable_weapon.json
 2bf685d3999e884884ee373bdef093d4b346978e data/malum/tags/item/scythe.json
 db46da5f5712f3879e9db9214ceb1d305a086afc data/minecraft/tags/item/chest_armor.json
 03a156854fd43bb9f546170eb3dcd0eb5e0b6dc7 data/minecraft/tags/item/enchantable/armor.json
+fb9bd03890a4bded91da809bd25300ebe0faeda1 data/minecraft/tags/item/enchantable/bow.json
 db46da5f5712f3879e9db9214ceb1d305a086afc data/minecraft/tags/item/enchantable/chest_armor.json
 2bf685d3999e884884ee373bdef093d4b346978e data/minecraft/tags/item/enchantable/durability.json
 03a156854fd43bb9f546170eb3dcd0eb5e0b6dc7 data/minecraft/tags/item/enchantable/equippable.json

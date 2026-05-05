@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monsterspellbooks"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 2,
+    "item": "monsterspellbooks:dwarven_alloy_ingot"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 6
+    }
+  ],
+  "validItems": [
+    "monsterspellbooks:dwarven_warhammer",
+    "monsterspellbooks:dwarven_axe",
+    "monsterspellbooks:dwarven_greataxe"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cataclysm_spellbooks"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "count": 1,
+    "item": "minecraft:netherite_ingot"
+  },
+  "spirits": [
+    {
+      "type": "malum:infernal",
+      "count": 12
+    },
+    {
+      "type": "malum:earthen",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "cataclysm_spellbooks:monstrous_flamberge"
+  ]
+}

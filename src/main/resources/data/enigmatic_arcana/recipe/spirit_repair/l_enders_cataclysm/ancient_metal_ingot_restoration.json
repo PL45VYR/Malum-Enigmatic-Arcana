@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "count": 2,
+    "item": "cataclysm:ancient_metal_ingot"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 8
+    },
+    {
+      "type": "malum:sacred",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "cataclysm:ancient_spear",
+    "cataclysm:bone_reptile_helmet",
+    "cataclysm:bone_reptile_chestplate"
+  ]
+}

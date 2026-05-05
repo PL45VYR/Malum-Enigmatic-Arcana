@@ -1,4 +1,9 @@
 {
+  "rarity.enigmatic_arcana_rarity_agroconic.name": "Agroconized",
+  "rarity.enigmatic_arcana_rarity_umbral.name": "Umbral",
+  "rarity.enigmatic_arcana_rarity_soul_stained.name": "Soul Stained",
+
+
   "item.enigmatic_arcana.agroconic_alloy": "Agroconic Alloy",
   "item.enigmatic_arcana.umbral_weave": "Umbral Weave",
 
@@ -10,6 +15,7 @@
 
 
   "item.enigmatic_arcana.nihility": "Nihility",
+  "item.enigmatic_arcana.catastrophe": "Catastrophe",
 
   "item.enigmatic_arcana.apothic_crusader_helmet": "Apothic Crusader Hood",
   "item.enigmatic_arcana.apothic_crusader_chestplate": "Apothic Crusader Robes",

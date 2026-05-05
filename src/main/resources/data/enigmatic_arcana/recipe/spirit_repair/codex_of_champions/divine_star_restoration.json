@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "codex_of_champions"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "repairMaterial": {
+    "count": 1,
+    "item": "codex_of_champions:divine_star"
+  },
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "codex_of_champions:crusader_helmet",
+    "codex_of_champions:crusader_chestplate",
+    "codex_of_champions:crusader_leggings",
+    "codex_of_champions:crusader_boots",
+    "codex_of_champions:excalibur",
+    "codex_of_champions:angelic_annhilator"
+  ]
+}

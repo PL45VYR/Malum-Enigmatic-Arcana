@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "codex_of_champions"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "repairMaterial": {
+    "count": 1,
+    "item": "codex_of_champions:soul_forged_ingot"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 8
+    },
+    {
+      "type": "malum:arcane",
+      "count": 12
+    }
+  ],
+  "validItems": [
+    "codex_of_champions:soulfire_greatsword",
+    "codex_of_champions:deathfire_greatsword",
+    "codex_of_champions:blood_soul_mask",
+    "codex_of_champions:blood_soul_robes",
+    "codex_of_champions:blood_soul_leggings",
+    "codex_of_champions:blood_soul_boots"
+  ]
+}

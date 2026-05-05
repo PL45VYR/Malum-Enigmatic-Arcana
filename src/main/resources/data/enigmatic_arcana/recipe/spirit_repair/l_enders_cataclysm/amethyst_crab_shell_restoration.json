@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "count": 2,
+    "item": "cataclysm:amethyst_crab_shell"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 12
+    },
+    {
+      "type": "malum:sacred",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "cataclysm:bloom_stone_pauldrons"
+  ]
+}

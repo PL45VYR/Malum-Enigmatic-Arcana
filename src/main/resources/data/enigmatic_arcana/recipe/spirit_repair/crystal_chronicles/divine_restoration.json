@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystal_chronicles"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "count": 1,
+    "item": "crystal_chronicles:divinite_shard"
+  },
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 12
+    }
+  ],
+  "validItems": [
+    "crystal_chronicles:paladin_sword",
+    "crystal_chronicles:paladin_shield",
+    "crystal_chronicles:paladin_helmet",
+    "crystal_chronicles:paladin_chestplate",
+    "crystal_chronicles:paladin_leggings",
+    "crystal_chronicles:paladin_boots"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "codex_of_champions"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "repairMaterial": {
+    "count": 1,
+    "item": "codex_of_champions:reinforced_ender_eye"
+  },
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "codex_of_champions:gala_hood",
+    "codex_of_champions:gala_robes",
+    "codex_of_champions:gala_leggings",
+    "codex_of_champions:gala_boots"
+  ]
+}

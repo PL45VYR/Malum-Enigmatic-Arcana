@@ -28,6 +28,10 @@ public class EAItemTagProvider extends ItemTagsProvider {
                 .add(EAItemRegistry.AGROCONIC_ALLOY.get())
         ;
 
+        tag(Tags.Items.TOOLS_BOW)
+                .add(EAItemRegistry.CATASTROPHE.get())
+        ;
+
 
         /*
         *** Enchantable Tags
@@ -40,6 +44,7 @@ public class EAItemTagProvider extends ItemTagsProvider {
                 .add(EAItemRegistry.APOTHIC_CRUSADER_BOOTS.get())
 
                 .add(EAItemRegistry.NIHILITY.get())
+                .add(EAItemRegistry.CATASTROPHE.get())
         ;
 
         tag(ItemTags.EQUIPPABLE_ENCHANTABLE)
@@ -80,6 +85,10 @@ public class EAItemTagProvider extends ItemTagsProvider {
 
         tag(ItemTags.SHARP_WEAPON_ENCHANTABLE)
                 .add(EAItemRegistry.NIHILITY.get())
+        ;
+
+        tag(ItemTags.BOW_ENCHANTABLE)
+                .add(EAItemRegistry.CATASTROPHE.get())
         ;
 
         /*

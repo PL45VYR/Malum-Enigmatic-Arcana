@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystal_chronicles"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "count": 1,
+    "item": "crystal_chronicles:voidstone_shard"
+  },
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 12
+    }
+  ],
+  "validItems": [
+    "crystal_chronicles:mage_helmet",
+    "crystal_chronicles:mage_chestplate",
+    "crystal_chronicles:mage_leggings",
+    "crystal_chronicles:mage_boots"
+  ]
+}

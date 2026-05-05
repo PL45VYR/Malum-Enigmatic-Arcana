@@ -138,9 +138,14 @@ configurations {
 
 dependencies {
 
+    //Malum
+    implementation "curse.maven:malum-484064:7307339"
+    implementation "curse.maven:lodestone-616457:7264731"
+
     //Iron's Spells 'n Spellbooks
-    implementation "curse.maven:iss-855414:7114204"
-    implementation "curse.maven:geckolib-388172:6304958"
+    implementation "curse.maven:irons_spells_n_spellbooks-855414:7907341"
+    implementation "curse.maven:iron_lib-1492763:7907336"
+    implementation "curse.maven:geckolib-388172:7707149"
     implementation "curse.maven:player_animator-658587:6024462"
     implementation "curse.maven:curios-309927:6342656"
 
@@ -152,12 +157,113 @@ dependencies {
     //Ace Utils
     //implementation "curse.maven:ace_utils-1299492:7119308"
 
+    //HazentouveLib
+    implementation "curse.maven:hazentouvelib-1528722:8015594"
+
     // Photon
     //implementation "curse.maven:photon-871522:6911487"
     //implementation "curse.maven:ld_lib-626676:6911394"
 
     //AzureLib
     implementation "mod.azure.azurelib:azurelib-neo-${minecraft_version}:${azurelib_version}"
+
+
+    /*
+    *** Optional ************
+     */
+
+    //Cataclysm Spellbooks
+    localRuntime "curse.maven:cataclysm_spellbooks-1099461:7358841"
+    compileOnly "curse.maven:cataclysm_spellbooks-1099461:7358841"
+    localRuntime "curse.maven:l_enders_cataclysm-551586:6906997"
+    compileOnly "curse.maven:l_enders_cataclysm-551586:6906997"
+    localRuntime "curse.maven:lionfish-1001614:6168249"
+    compileOnly "curse.maven:lionfish-1001614:6168249"
+
+    //SnackPirate's Aeromancy Additions
+    localRuntime "curse.maven:snackpirates_aeromancy_additions-1160104:6781033"
+    compileOnly "curse.maven:snackpirates_aeromancy_additions-1160104:6781033"
+    localRuntime "curse.maven:expandability-465066:5428824"
+    compileOnly "curse.maven:expandability-465066:5428824"
+
+    //Wind's Spellbooks
+    localRuntime "curse.maven:winds_spellbooks-1519158:7955793"
+    compileOnly "curse.maven:winds_spellbooks-1519158:7955793"
+
+    //Asterism Arcanum
+    localRuntime "curse.maven:asterism_arcanum-1456947:7596152"
+    compileOnly "curse.maven:asterism_arcanum-1456947:7596152"
+
+    //Codex of Champions
+    localRuntime "curse.maven:codex_of_champions-1231566:7071815"
+    compileOnly "curse.maven:codex_of_champions-1231566:7071815"
+
+    //Magic From The East
+    localRuntime "curse.maven:magic_from_the_east-1224162:6864551"
+    compileOnly "curse.maven:magic_from_the_east-1224162:6864551"
+
+    //Familiar Lib
+    localRuntime "curse.maven:familiar_lib-1316458:7931283"
+    compileOnly "curse.maven:familiar_lib-1316458:7931283"
+
+    localRuntime "curse.maven:alshanexs_familiars-1171602:7934150"
+    compileOnly "curse.maven:alshanexs_familiars-1171602:7934150"
+
+    // Tunes 'n Tomes
+    localRuntime "curse.maven:tunes_n_tomes-1509193:7920232"
+    compileOnly "curse.maven:tunes_n_tomes-1509193:7920232"
+
+    //Ender's Spells and Stuff
+    localRuntime "curse.maven:enders_spells_and_stuff-1336977:7932825"
+    compileOnly "curse.maven:enders_spells_and_stuff-1336977:7932825"
+    localRuntime "curse.maven:gtbcs-spelllib-1194714:7385455"
+    compileOnly "curse.maven:gtbcs-spelllib-1194714:7385455"
+
+    //Discerning the Eldritch
+    localRuntime "curse.maven:discerning_the_eldritch-1143065:7469786"
+    compileOnly "curse.maven:discerning_the_eldritch-1143065:7469786"
+    localRuntime "curse.maven:soul_fire_d-662413:7364962"
+    compileOnly "curse.maven:soul_fire_d-662413:7364962"
+    localRuntime "curse.maven:prometheus-1365195:7364871"
+    compileOnly "curse.maven:prometheus-1365195:7364871"
+    localRuntime "curse.maven:cobweb-968456:7186943"
+    compileOnly "curse.maven:cobweb-968456:7186943"
+
+    //Ace Utils
+    localRuntime "curse.maven:ace_utils-1299492:7787705"
+    compileOnly "curse.maven:ace_utils-1299492:7787705"
+
+    // Crystal Chronicles
+    localRuntime "curse.maven:crystal_chronicles-1153374:7566322"
+    compileOnly "curse.maven:crystal_chronicles-1153374:7566322"
+
+    // Fire's Ender Expansion
+    localRuntime "curse.maven:fires_ender_expansion-1245989:7804733"
+    compileOnly "curse.maven:fires_ender_expansion-1245989:7804733"
+
+    // Mowzies Mobs
+    localRuntime "curse.maven:mowzies_mobs-250498:7760267"
+    compileOnly "curse.maven:mowzies_mobs-250498:7760267"
+
+    // GTBC's Geomancy Plus
+    localRuntime "curse.maven:gtbcs_geomancy_plus-1352485:7041615"
+    compileOnly "curse.maven:gtbcs_geomancy_plus-1352485:7041615"
+
+    // Born in Chaos
+    localRuntime "curse.maven:born_in_chaos-686437:7917953"
+    compileOnly "curse.maven:born_in_chaos-686437:7917953"
+
+    // Somake's Spells
+    localRuntime "curse.maven:somakes_spells-1461634:8003379"
+    compileOnly "curse.maven:somakes_spells-1461634:8003379"
+
+    // Monsters & Spellbooks
+    localRuntime "curse.maven:monsters_and_spellbooks-1428928:7963311"
+    compileOnly "curse.maven:monsters_and_spellbooks-1428928:7963311"
+
+    // Ozymandias' Sundries
+    localRuntime "curse.maven:ozymandias_sundries-1209674:6978561"
+    compileOnly "curse.maven:ozymandias_sundries-1209674:6978561"
 
     //JEI
     compileOnly "mezz.jei:jei-${jei_mc_version}-common-api:${jei_version}"
@@ -171,13 +277,12 @@ dependencies {
     localRuntime "curse.maven:better-combat-by-daedelus-639842:5723092"
     localRuntime "curse.maven:cloth-config-348521:5623420"
 
-    //Malum
-    implementation "curse.maven:malum-484064:7307339"
-    implementation "curse.maven:lodestone-616457:7264731"
-
     // Iron's Gems 'n Jewelry
     //localRuntime "curse.maven:irons_gems_n_jewelry-1101111:7084345"
     //localRuntime "curse.maven:atlas_api-1145462:6880789"
+
+    // Farmer's Delight
+    localRuntime(("curse.maven:farmers-delight-398521:5878217"))
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

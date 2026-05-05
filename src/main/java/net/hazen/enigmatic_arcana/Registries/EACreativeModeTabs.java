@@ -29,6 +29,7 @@ public class EACreativeModeTabs {
                         output.accept(EAItemRegistry.UMBRAL_WEAVE.get());
 
                         output.accept(EAItemRegistry.NIHILITY.get());
+                        output.accept(EAItemRegistry.CATASTROPHE.get());
 
                         output.accept(EAItemRegistry.AGROCONIC_BULWARK.get());
                         output.accept(EAItemRegistry.AGROCONIC_WINGS.get());

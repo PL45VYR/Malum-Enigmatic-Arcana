@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mowziesmobs"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 4,
+    "item": "mowziesmobs:bluff_rod"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 12
+    },
+    {
+      "type": "malum:sacred",
+      "count": 12
+    }
+  ],
+  "validItems": [
+    "mowziesmobs:sculptor_staff",
+    "mowziesmobs:geomancer_beads",
+    "mowziesmobs:geomancer_robe",
+    "mowziesmobs:geomancer_belt",
+    "mowziesmobs:geomancer_sandals"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monsterspellbooks"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 3,
+    "item": "irons_spellbooks:magic_cloth"
+  },
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 8
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "monsterspellbooks:fun_gal_cap_red",
+    "monsterspellbooks:fun_gal_cap_blue",
+    "monsterspellbooks:necromancer_helment",
+    "monsterspellbooks:necromancer_chestplate",
+    "monsterspellbooks:necromancer_leggings",
+    "monsterspellbooks:necromancer_boots"
+  ]
+}

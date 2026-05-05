@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "iss_magicfromtheeast"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 8,
+    "item": "iss_magicfromtheeast:crystallized_soul"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 12
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 12
+    }
+  ],
+  "validItems": [
+    "iss_magicfromtheeast:soul_katana",
+    "iss_magicfromtheeast:soul_breaker",
+    "iss_magicfromtheeast:soulpiercer"
+  ]
+}

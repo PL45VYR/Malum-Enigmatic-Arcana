@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monsterspellbooks"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 2,
+    "item": "monsterspellbooks:illagerite_ingot"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 6
+    }
+  ],
+  "validItems": [
+    "monsterspellbooks:illager_enchanter_helmet",
+    "monsterspellbooks:illager_enchanter_chestplate",
+    "monsterspellbooks:illager_enchanter_leggings",
+    "monsterspellbooks:illager_enchanter_boots",
+    "monsterspellbooks:illager_enchanter_helmet",
+    "monsterspellbooks:illager_enchanter_chestplate",
+    "monsterspellbooks:illager_enchanter_leggings",
+    "monsterspellbooks:illager_iceologer_boots"
+  ]
+}

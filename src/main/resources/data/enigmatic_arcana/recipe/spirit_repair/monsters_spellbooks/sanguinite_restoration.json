@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monsterspellbooks"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 2,
+    "item": "monsterspellbooks:sanguinite_ingot"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 6
+    }
+  ],
+  "validItems": [
+    "monsterspellbooks:sanguinite_hero_hood",
+    "monsterspellbooks:sanguinite_hero_chestplate",
+    "monsterspellbooks:sanguinite_hero_leggings",
+    "monsterspellbooks:sanguinite_hero_boots",
+    "monsterspellbooks:sanguinite_axe",
+    "monsterspellbooks:sanguinite_scythe",
+    "monsterspellbooks:sanguinite_dagger"
+  ]
+}

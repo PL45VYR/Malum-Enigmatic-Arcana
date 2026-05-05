@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ozymandias_sundries"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 2,
+    "item": "minecraft:echo_shard"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 6
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 12
+    }
+  ],
+  "validItems": [
+    "ozymandias_sundries:sculk_helmet",
+    "ozymandias_sundries:sculk_chestplate",
+    "ozymandias_sundries:sculk_leggings",
+    "ozymandias_sundries:sculk_boots"
+  ]
+}

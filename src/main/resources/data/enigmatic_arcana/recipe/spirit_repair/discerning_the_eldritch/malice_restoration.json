@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "discerning_the_eldritch"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "repairMaterial": {
+    "count": 4,
+    "item": "discerning_the_eldritch:bottle_of_liquid_malice"
+  },
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 8
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "discerning_the_eldritch:mourning_star_awakened",
+    "discerning_the_eldritch:cataclysm_awakened",
+    "discerning_the_eldritch:devourer_awakened",
+    "discerning_the_eldritch:crimson_stag_antlers",
+    "discerning_the_eldritch:crimson_stag_robes",
+    "discerning_the_eldritch:crimson_stag_leggings",
+    "discerning_the_eldritch:crimson_stag_boots"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "monsterspellbooks"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.5,
+  "repairMaterial": {
+    "count": 2,
+    "item": "irons_spellbooks:ice_venom_vial"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 6
+    }
+  ],
+  "validItems": [
+    "monsterspellbooks:frost_fang"
+  ]
+}

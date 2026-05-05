@@ -13,7 +13,7 @@ public class ApothicCrusaderArmorItem extends EAImbuableArmorItem implements IDi
         super(EAArmorMaterials.AGROCONIC_MATERIAL,
                 type,
                 properties,
-                warlock(
+                pureTierMalum(
                 250,
                 0.15f,
                 0.5f,

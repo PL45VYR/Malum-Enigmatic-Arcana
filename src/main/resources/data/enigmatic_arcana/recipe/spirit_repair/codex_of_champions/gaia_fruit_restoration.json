@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "codex_of_champions"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "repairMaterial": {
+    "count": 1,
+    "item": "codex_of_champions:gaia_fruit"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "validItems": [
+    "codex_of_champions:worldbreaker",
+    "codex_of_champions:blossom_cloak_hood",
+    "codex_of_champions:blossom_cloak_robes",
+    "codex_of_champions:blossom_cloak_leggings",
+    "codex_of_champions:blossom_cloak_boots",
+    "codex_of_champions:sakura_blossom_cloak_hood",
+    "codex_of_champions:sakura_blossom_cloak_robes",
+    "codex_of_champions:sakura_blossom_cloak_leggings",
+    "codex_of_champions:sakura_blossom_cloak_boots"
+  ]
+}

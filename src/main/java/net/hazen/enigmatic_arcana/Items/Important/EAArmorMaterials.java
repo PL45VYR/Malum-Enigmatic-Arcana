@@ -26,7 +26,7 @@ public class EAArmorMaterials {
             20,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
             () -> Ingredient.of(MalumItems.SOUL_STAINED_STEEL_PLATING.get()),
-            2,
+            4,
             0.15F
     );
 

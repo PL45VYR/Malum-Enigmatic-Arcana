@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crystal_chronicles"
+    }
+  ],
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 1,
+  "repairMaterial": {
+    "count": 1,
+    "item": "crystal_chronicles:ice_shard"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 12
+    },
+    {
+      "type": "malum:arcane",
+      "count": 12
+    }
+  ],
+  "validItems": [
+    "crystal_chronicles:ice_hammer",
+    "crystal_chronicles:tank_helmet",
+    "crystal_chronicles:tank_chestplate",
+    "crystal_chronicles:tank_leggings",
+    "crystal_chronicles:tank_boots"
+  ]
+}

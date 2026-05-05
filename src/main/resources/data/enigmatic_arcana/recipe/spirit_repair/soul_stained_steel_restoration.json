@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_repair",
+  "durabilityPercentage": 0.75,
+  "repairMaterial": {
+    "count": 3,
+    "item": "malum:soul_stained_steel_plating"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:earthen",
+      "count": 4
+    }
+  ],
+  "validItems": [
+    "enigmatic_arcana:nihility",
+    "enigmatic_arcana:catastrophe",
+    "enigmatic_arcana:apothic_crusader_helmet",
+    "enigmatic_arcana:apothic_crusader_chestplate",
+    "enigmatic_arcana:apothic_crusader_leggings",
+    "enigmatic_arcana:apothic_crusader_boots"
+  ]
+}
