@@ -1,6 +1,6 @@
 {
   "type": "malum:spirit_infusion",
-  "extraInput": [
+  "extraInputs": [
     {
       "count": 4,
       "item": "malum:soulwoven_silk"
