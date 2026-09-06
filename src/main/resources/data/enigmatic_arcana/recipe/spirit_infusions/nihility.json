@@ -1,7 +1,7 @@
 {
   "type": "malum:spirit_infusion",
   "carryOverComponentData": true,
-  "extraInput": [
+  "extraInputs": [
     {
       "count": 4,
       "item": "enigmatic_arcana:agroconic_alloy"
